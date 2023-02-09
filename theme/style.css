@@ -4,7 +4,7 @@ html, body {
     font-size: 100%;
     background-color: #f7ebc2;
     color:#302b4e;
-    font-family:  Geneva
+    font-family: "Courier New"
   }
 
 #banner{
@@ -20,12 +20,16 @@ html, body {
 }
 
 .hentry{
-  background-color: #F2EFE9;
+  background-color:#F2EFE9;
   inline-size: 500px;
   border-radius: 15px;
   padding: 0px 0px 0px 15px;
 }
 
 #contentinfo{
+  text-align: center;
+}
+
+.entry-title{
   text-align: center;
 }
