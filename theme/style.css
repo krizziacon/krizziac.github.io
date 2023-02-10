@@ -2,9 +2,9 @@ html, body {
     margin: 0;
     border: 0;
     font-size: 100%;
-    background-color: #f7ebc2;
-    color:#302b4e;
-    font-family: "Courier New"
+    background-color: #f5db86;
+    color:#342828;
+    font-family: 'Courier New', Courier, monospace
   }
 
 #banner{
@@ -20,6 +20,12 @@ html, body {
 }
 
 .hentry{
+  /* source used to make card effect:
+  https://www.w3schools.com/css/css_padding.asp
+  https://www.w3schools.com/howto/howto_css_cards.asp
+  
+  License: Copyright 1999-2023 by Refsnes Data
+  */
   background-color:#F2EFE9;
   inline-size: 500px;
   border-radius: 15px;
@@ -31,5 +37,5 @@ html, body {
 }
 
 .entry-title{
-  text-align: center;
+  text-align: left;
 }
